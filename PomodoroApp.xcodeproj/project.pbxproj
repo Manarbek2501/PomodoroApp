@@ -11,6 +11,12 @@
 		4B0A0A2D29F427D700160B1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A2C29F427D700160B1F /* ContentView.swift */; };
 		4B0A0A2F29F427D800160B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A0A2E29F427D800160B1F /* Assets.xcassets */; };
 		4B0A0A3229F427D800160B1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0A0A3129F427D800160B1F /* Preview Assets.xcassets */; };
+		4B0A0A3929F4282B00160B1F /* HistoryScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A3829F4282B00160B1F /* HistoryScreenView.swift */; };
+		4B0A0A3B29F4285300160B1F /* SettingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A3A29F4285300160B1F /* SettingScreenView.swift */; };
+		4B0A0A3D29F4287200160B1F /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A3C29F4287200160B1F /* MainScreenView.swift */; };
+		4B0A0A3F29F4289500160B1F /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A3E29F4289500160B1F /* PomodoroModel.swift */; };
+		4B0A0A4129F428A900160B1F /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A4029F428A900160B1F /* BottomSheet.swift */; };
+		4B0A0A4329F428DF00160B1F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A0A4229F428DF00160B1F /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		4B0A0A2C29F427D700160B1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B0A0A2E29F427D800160B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B0A0A3129F427D800160B1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B0A0A3829F4282B00160B1F /* HistoryScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenView.swift; sourceTree = "<group>"; };
+		4B0A0A3A29F4285300160B1F /* SettingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenView.swift; sourceTree = "<group>"; };
+		4B0A0A3C29F4287200160B1F /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		4B0A0A3E29F4289500160B1F /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
+		4B0A0A4029F428A900160B1F /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		4B0A0A4229F428DF00160B1F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				4B0A0A2A29F427D700160B1F /* PomodoroAppApp.swift */,
 				4B0A0A2C29F427D700160B1F /* ContentView.swift */,
+				4B0A0A3829F4282B00160B1F /* HistoryScreenView.swift */,
+				4B0A0A3A29F4285300160B1F /* SettingScreenView.swift */,
+				4B0A0A3C29F4287200160B1F /* MainScreenView.swift */,
+				4B0A0A3E29F4289500160B1F /* PomodoroModel.swift */,
+				4B0A0A4029F428A900160B1F /* BottomSheet.swift */,
+				4B0A0A4229F428DF00160B1F /* SettingView.swift */,
 				4B0A0A2E29F427D800160B1F /* Assets.xcassets */,
 				4B0A0A3029F427D800160B1F /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0A0A3F29F4289500160B1F /* PomodoroModel.swift in Sources */,
+				4B0A0A3929F4282B00160B1F /* HistoryScreenView.swift in Sources */,
+				4B0A0A4129F428A900160B1F /* BottomSheet.swift in Sources */,
+				4B0A0A3D29F4287200160B1F /* MainScreenView.swift in Sources */,
 				4B0A0A2D29F427D700160B1F /* ContentView.swift in Sources */,
+				4B0A0A4329F428DF00160B1F /* SettingView.swift in Sources */,
 				4B0A0A2B29F427D700160B1F /* PomodoroAppApp.swift in Sources */,
+				4B0A0A3B29F4285300160B1F /* SettingScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
